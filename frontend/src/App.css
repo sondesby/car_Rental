@@ -1,0 +1,17 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.myBtn{
+  width: 100%;
+  height: 35px;
+  color: white;
+  background-color: #fd7a09;
+  border: 0px;
+  border-radius: 15px;
+}
+.myBtn:hover{
+  width: 100%;
+  background-color: #f3790f;
+  color: white;
+}
+.err{
+  height: 50px;
+}

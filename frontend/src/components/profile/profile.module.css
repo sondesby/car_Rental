@@ -1,0 +1,84 @@
+.profilePage {
+    margin-top: 15vh;
+}
+
+.title {
+    margin-left: 7%;
+    margin-bottom: 10px;
+}
+
+.img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 15px;
+}
+
+.roundedCircle {
+    border-radius: 50% !important;
+}
+
+.dropArea {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 0;
+    border-radius: 10px;
+    border: 2px dashed #49494866;
+}
+
+.icon {
+    font-size: 30px;
+    color: #49494891;
+}
+
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+
+
+.cardheader {
+    padding: 1rem 1.35rem;
+    font-weight: bold;
+    background-color: rgba(33, 40, 50, 0.03);
+    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+}
+
+.myBtn{
+    width: 50% !important;
+}
+
+
+.loader {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .loader::after,
+  .loader::before {
+    content: '';
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #fd7a09;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: animloader 1s linear infinite;
+  }
+  
+  .loader::after {
+    animation-delay: 0s;
+  }
+  
+  @keyframes animloader {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }

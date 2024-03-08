@@ -1,0 +1,27 @@
+.pageReg{
+    background-image: url('../../../public/images/volvo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    margin-top: 8vh;
+  }
+  
+  .myFormReg {
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffa8;
+    margin-top: 20vh;
+    margin-bottom: 25vh;
+  }
+  
+  .title{
+    color: #2d2c4a;
+  }
+  
+  .errs{
+    font-size: 20px;
+  }

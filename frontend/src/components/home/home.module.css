@@ -1,0 +1,76 @@
+.homePage {
+    margin-top: 10vh;
+}
+
+.carCard {
+    border: 0;
+    background-color: rgba(178, 176, 176, 0.214);
+}
+
+.carCard .titre {
+    color: #2d2c4a;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carCard:hover {
+    background-color: rgba(0, 0, 0, 0.495);
+    color: white;
+}
+
+.carCard:hover .titre {
+    color: #ffffff;
+}
+
+.detail {
+    margin-bottom: 5px;
+}
+
+.text {
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.road {
+    height: 20px;
+    width: 20px;
+}
+
+.icon {
+    color: #fd7a09;
+}
+
+.carimage {
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 300px;
+    width: 90%;
+    border-radius: 3%;
+}
+
+.dispo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formControl:focus {
+    box-shadow: none;
+}
+
+.formControl-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.formControl::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+

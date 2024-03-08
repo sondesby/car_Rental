@@ -1,0 +1,25 @@
+.dashboardPage {
+    margin-top: 10vh;
+}
+
+.img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.infocard {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.border {
+    border-left-color: #e27f27 !important;
+}
+
+.borderlg {
+    border-left-width: 0.5rem !important;
+}
+
+.data {
+    color: #413f81;
+}

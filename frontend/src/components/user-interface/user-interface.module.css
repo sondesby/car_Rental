@@ -1,0 +1,93 @@
+.userInterfaceHeader {
+    margin-top: 8vh;
+}
+
+.userInterfaceTitle {
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+.myPosts {
+    width: 85%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.myPostPhoto {
+    border-radius: 15px 15px 0 0;
+}
+
+.addPostBtn {
+    width: 85%;
+    font-size: large;
+    margin-top: 20px;
+}
+
+
+.editPostBtn {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 80px;
+    font-size: 30px;
+    color: #fd7a09;
+    cursor: pointer;
+    border-radius: 60px;
+    background-color: transparent;
+    border: 0px;
+    z-index: 999;
+}
+
+.editPostBtn:hover {
+    background-color: rgba(0, 0, 0, 0.224);
+}
+
+.delPostBtn {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #fd7a09;
+    cursor: pointer;
+    border-radius: 60px;
+    background-color: transparent;
+    border: 0px;
+    z-index: 999;
+}
+
+.delPostBtn:hover {
+    background-color: rgba(0, 0, 0, 0.224);
+}
+
+.availableBtn {
+    height: 40px;
+    color: white;
+}
+
+.availableBtn:hover {
+    color: white;
+}
+
+.carSpecs {
+    height: 55px;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: rgba(250, 235, 215, 0.55);
+}
+
+.carSpecs:hover {
+    background-color: rgba(250, 235, 215, 0.819);
+}
+
+.cardInfo {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.rentBtn {
+    margin-top: 15px;
+}
